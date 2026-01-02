@@ -8,7 +8,7 @@ app = FastAPI(title="Mall Customer Prediction API")
 # Allow frontend to talk to backend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://mall-customer-i0za5ii95-thitna8s-projects.vercel.app"],  
+    allow_origins=["https://mall-customer-1fkqgonjm-thitna8s-projects.vercel.app"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
