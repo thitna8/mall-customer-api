@@ -10,7 +10,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
        "https://thitna8.github.io/mall-customer-frontend",
-        "https://mall-customer-final.vercel.app"
+        "https://mall-customer-final.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
