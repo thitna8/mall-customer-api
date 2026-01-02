@@ -9,9 +9,8 @@ app = FastAPI(title="Mall Customer Prediction API")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://mall-customer-nu.vercel.app",
-        "https://mall-customer-git-main-thitna8s-projects.vercel.app",
-        "https://mall-customer-hm0bzfapr-thitna8s-projects.vercel.app"
+       "https://thitna8.github.io/mall-customer-frontend",
+        "https://mall-customer-nu.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
